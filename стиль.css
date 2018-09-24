@@ -1,0 +1,22 @@
+body {
+height: 200px;
+background: linear-gradient(70deg, #4EFFBF, #CFD2E1);
+}
+h1{
+font-size: 50px;
+border: 25px;
+border-style: double;
+color: white;
+}
+h2{
+font-size: 40px;
+}
+h3{
+font-size: 30px;
+}
+p{
+font-size: 20px;
+}
+h2,h3,p{border: 5px;
+border-style: groove;
+border-color:#CFD2E1}
