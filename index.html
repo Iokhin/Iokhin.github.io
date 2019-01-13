@@ -1,50 +1,269 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
 
- 	<link href="стиль.css" rel="stylesheet">
- 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Иохин Н.Д.</title>
+    </head>
 
-  <title>Личная страница Иохина Н.Д.</title>
- </head>
- <body>
- 	<div class="super-main">
- <div class="main">
- 	<div class="block">
-  <h1>Личная страница Иохина Н.Д.</h1>
-  	</div>
-  	<div class="block">
-  <h2>Студент: Иохин Н.Д.<br>
-  Группа: ИДМ-18-02</h2>
-  	</div>
-  	<div class="block">
-  <h3>Лабараторные работы:</h3>
-	</div>
-	<div class="lab">
+    <body style="background: linear-gradient(to right, #ffffff, #c6d9ec);">
+      <nav>
+        <div class="nav-wrapper" style="background-image: url(pics/prlx1.jpg);">
+          <a href="#" class="brand-logo center">Личная страница</a>
+        </div>
+      </nav>
+      <div class="section">
+        <div class="row container">
+          <h4 class="header">Студент: Иохин Н.Д.</h4>
+          <h4 class="grey-text text-darken-3 lighten-3">Группа: ИДМ-18-02</h4>
+        </div>
+      </div>
+     
+      <div class="parallax-container" style="height: 150px">
+        <div class="parallax"><img src="pics/prlx1.jpg"></div>
+      </div>
+     
+      <div class="container white">
+        <ul class="collapsible ">
+           <li>
+             <div class="collapsible-header"><i class="material-icons">folder</i>Лабораторная работа №1 "Экосистема разработки программ с открытым кодом"</div>
+             <div class="collapsible-body"><span>
+              <a href="https://github.com/Iokhin/Iokhin.github.io">1. Создание личной страницы</a>
+              <br>
+              <a href="https://iokhin.github.io/">2. Размещение личной страницы на хостинге</a>
+             </span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">folder</i>Лабораторная работа №2 "Разработка простого веб-приложения"</div>
+             <div class="collapsible-body"><span>
+              <a href="SnakeGame.html">Игра Змейка</a><br>
+              <a href="SnakeGame.html"><img src="pics/snake.png" alt=""></a>
+             </span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">folder</i>Лабораторная работа №3 "Настройка локальной сети передачи данных"</div>
+             <div class="collapsible-body"><span><ul>
+                                <li>
+                                    Цель данной работы – ознакомиться с принципами работы компьютерных сетей, базовой
+                                    настройкой сетевого оборудования и статической маршрутизацией.
+                                </li>
+                                <li>
+                                    Вариант №8
+                                </li>
 
-	<div class="lab1">
-		<h5> Лабораторна работа №1 "Экосистема разработки программ с открытым кодом" </h5>
-		<p><a href="https://github.com/Iokhin/Iokhin.github.io">1. Создание личной страницы</a></p>
-		<p><a href="https://iokhin.github.io/">2. Размещение личной страницы на хостинге</a></p>
+                                <li>
+                                    <table style="margin-bottom: 20px; margin-top: 20px; border: solid; border-width: 2px; border-color: silver">
+                                        <tbody>
+                                        <tr>
+                                            <td rowspan="2"></td>
+                                            <td><b>LAN A</b></td>
+                                            <td><b>LAN B</b></td>
+                                            <td><b>LAN C</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>323</td>
+                                            <td>13</td>
+                                            <td>11</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Префиксная маска</b></td>
+                                            <td>/23</td>
+                                            <td>/28</td>
+                                            <td>/28</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Адрес подсети</b></td>
+                                            <td>192.168.8.0</td>
+                                            <td>172.16.8.0</td>
+                                            <td>10.10.8.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Минимальный адрес</b></td>
+                                            <td>192.168.8.1</td>
+                                            <td>172.16.8.1</td>
+                                            <td>10.10.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Максимальный адрес</b></td>
+                                            <td>192.168.9.254</td>
+                                            <td>172.16.8.14</td>
+                                            <td>10.10.8.14</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Broadcast</b></td>
+                                            <td>192.168.9.255</td>
+                                            <td>172.16.8.15</td>
+                                            <td>10.10.8.15</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
 
-	</div>
-		<div class="lab1">
-		<h5> Лабораторна работа №2 "Разработка простого веб-приложения" </h5>
-		
-	</div>
-	<div class="lab1">
-		<h5> Лабораторна работа №3 "Настройка локальной сети передачи данных" </h5>
-		
-	</div>
-	<div class="lab2">
-		<h5> Лабораторна работа №4 </h5>
-		
-	</div>
+                                <li>
+                                    <table style="margin-bottom: 20px; border: solid; border-width: 2px; border-color: silver">
+                                        <tbody>
+                                        <tr>
+                                            <td><b>Устройство</b></td>
+                                            <td><b>IP</b></td>
+                                            <td><b>Маска</b></td>
+                                            <td><b>Шлюз по умолчанию</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PC0</td>
+                                            <td>192.168.9.253</td>
+                                            <td>255.255.254.0</td>
+                                            <td>192.168.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PC1</td>
+                                            <td>192.168.9.252</td>
+                                            <td>255.255.254.0</td>
+                                            <td>192.168.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PC2</td>
+                                            <td>172.16.8.13</td>
+                                            <td>255.255.255.240</td>
+                                            <td>172.16.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PC3</td>
+                                            <td>172.16.8.14</td>
+                                            <td>255.255.255.240</td>
+                                            <td>172.16.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PC4</td>
+                                            <td>10.10.8.14</td>
+                                            <td>255.255.255.240</td>
+                                            <td>10.10.8.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Router0 FastEthernet 0/0</td>
+                                            <td>192.168.8.1</td>
+                                            <td>255.255.254.0</td>
+                                            <td>–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Router0 FastEthernet 1/0</td>
+                                            <td>172.16.8.1</td>
+                                            <td>255.255.255.240</td>
+                                            <td>–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Router0 FastEthernet 6/0</td>
+                                            <td>15.15.8.2</td>
+                                            <td>255.255.255.252</td>
+                                            <td>–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Router12 FastEthernet 0/0</td>
+                                            <td>15.15.8.1</td>
+                                            <td>255.255.255.252</td>
+                                            <td>–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Router12 FastEthernet 1/0</td>
+                                            <td>10.10.8.1</td>
+                                            <td>255.255.255.240</td>
+                                            <td>–</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </li>
 
+                                <li>
+                                    1. Разместить два компьютера и коммутатор, настроить между ними адресацию.
+                                    <div class="images _network center" style="margin: 10px"><img src="pics/3.1.png" alt=""></div>
+                                </li>
 
-	</div>
-</div>
- </div>
- <div class="yeahboy">
- 	<a href="https://www.youtube.com/watch?v=GvGXQ3uTlR8"> Длинный ебоi <a>
- </div>
+                                <li>
+                                    2. Добавить еще один коммутатор с двумя компьютерами и маршрутизаторы. Провести
+                                    настройку.
+                                    <div class="images _network-all center" style="margin: 10px"><img src="pics/3.2.png" alt=""></div>
+                                </li>
 
-</body></html>
+                                <li>
+                                    3. Настроить статическую маршрутизацию при помощи команды: ip route [сеть
+                                    назначения] [маска] [маршрут]
+                                </li>
+                                
+                                <li>
+                                    4. Установить баннер на сетевое оборудование: banner motd [баннер]
+                                </li>
+                            </ul></span></div>
+           </li>
+         </ul>
+        </div>
+    
+      <div class="parallax-container" style="height: 150px">
+        <div class="parallax"><img src="pics/prlx1.jpg"></div>
+      </div>
+      
+      <div class="section">
+        <div class="row container">
+          <h4 class="header">Ответ на билет №21</h4>
+          <div class="divider"></div>
+          <h5 style="font-weight: bold;">Понятие радиоканала. Основные виды радиоканалов, используемые для доступа к интернету.</h5>
+          <div class="divider"></div>
+          <h6 style="font-weight: bold;">Радиоканал – канал связи, в котором передача информации осуществляется с помощью радиоволн. Радиоволна – электромагнитная волна, используемая для беспроволочной передачи различных сообщений на расстояние.</h6>
+          <div class="divider"></div>
+          <p class="grey-text text-darken-3 lighten-3">Радиоканал включает в себя среду распространения радиоволн и устройства преобразования электрических сигналов в электромагнитное излучение (радиопередающее устройство) и электромагнитное излучение в электрические сигналы (радиоприемное устройство). Технические характеристики радиоканала зависят от его функционального назначения и вида передаваемых сигналов: обслуживаемая зона, дальность передачи определяют применяемые частоты, вид антенн, мощность передатчика и чувствительность приемника; вид сигналов (телефония или телеграфия, звуковое или телевизионное вещание и т.д.) определяет пропускную способность канала (полоса передаваемых частот, динамический диапазон и линейность амплитудной характеристики канала).<br><br>Для объединения компьютеров, ноутбуков, смартфонов и других устройств для обмена различной информацией могут использоваться два типа соединений: проводное и беспроводное.</p>
+          <div class="divider"></div>
+          <div >
+          <h6 style="font-weight: bold;">На сегодняшний день существует несколько технологий беспроводной связи:</h6>
+          </div>
+          <div class="divider"></div>
+          
+          <li>
+              Bluetooth. Не обладает большой скоростью передачи данных и большим радиусом действия, однако в определенных случаях он весьма уместен и удобен.
+          </li>
+          <li>
+              WiFi. Скорость передачи данных не уступает кабельному соединению. Достаточно большой радиус действия, доступность (дешевизна) и возможность объединить в одну группу до 200 ПК и ноутбуков. Более того, любой современный ноутбук, смартфон, планшет, телевизор, принтер и другая техника имеет встроенный WiFi модуль. Это делает данную технологию в полной мере универсальной и идеально подходящей для офисов и частных домов или квартир.
+          </li>
+          <li>
+              НWiMAX. Это технология мобильной связи, предоставляющая пользователям выход в скоростной интернет на больших расстояниях.
+          </li>
+          
+          <p class="grey-text text-darken-3 lighten-3">Их работа основана на радиоволнах. Передача данных происходит при помощи радиоканалов определенной частоты.</p>
+          <div class="divider"></div>
+          <h6 style="font-weight: bold;">Существует несколько типов беспроводных сетей, которые отличаются между собой масштабами:</h6>
+          <div class="divider"></div>
+          <li>
+              PAN – самый простой тип соединения, объединяющий устройства одного хозяина, к примеру, ПК, ноутбук, смарфоны и планшеты, находящиеся в одной квартире.
+          </li>
+          <li>
+              WLAN – более востребованный тип соединения. AN в данном случае означает Area Network, L – local (локальный). Такие группы объединяют два и больше абонентских устройств (ПК) в одной квартире или даже в целом здании.
+          </li>
+          <li>
+              CAN – кампусная связь, которая способна объединить несколько близко расположенных друг от друга зданий.
+          </li>
+           <li>
+              MAN – это второй по масштабу тип соединения, который может объединять компьютеры в пределах одного или даже нескольких соседних городов.
+          </li>
+           <li>
+              WAN – это так называемая глобальная сеть, которая может связывать абонентские устройства в пределах целых регионов и стран.
+          </li>
+          <p class="grey-text text-darken-3 lighten-3">Технологии беспроводной связи на сегодняшний день являются наиболее востребованными, благодаря чему они имеют огромные перспективы. В будущем люди смогут полностью отказаться от проводной связи и перейти на мобильную. А это не только удобно, но и выгодно, так как интернет кабели имеют достаточно высокую стоимость. Кроме этого беспроводная связь открывает пользователям дополнительные возможности.</p>
+          
+        </div>
+      
+        <div class="parallax-container" style="height: 150px">
+          <div class="parallax"><img src="pics/prlx1.jpg"></div>
+        </div>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+            $('.collapsible').collapsible();
+          });
+      </script>
+    </body>
+  </html>
