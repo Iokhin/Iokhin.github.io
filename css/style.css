@@ -1,0 +1,10 @@
+td {
+	border: solid; 
+	border-width: 2px; 
+	border-color: silver;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
